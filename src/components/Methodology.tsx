@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { Code, Cpu, Database, GitBranch } from 'lucide-react';
-import { useInView } from 'react-intersection-observer';
+import { motion } from "framer-motion";
+import { Code, Cpu, Database, GitBranch } from "lucide-react";
+import { useInView } from "react-intersection-observer";
 
 const MethodologyStep = ({ icon: Icon, title, description, index }) => {
   const [ref, inView] = useInView({
@@ -14,8 +14,7 @@ const MethodologyStep = ({ icon: Icon, title, description, index }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, delay: index * 0.2 }}
-      className="relative"
-    >
+      className="relative">
       <div className="flex items-start space-x-4">
         <div className="flex-shrink-0">
           <div className="relative">
@@ -47,23 +46,25 @@ const Methodology = () => {
     {
       icon: Code,
       title: "Analisi e Progettazione",
-      description: "Studio approfondito delle esigenze e definizione di soluzioni tecnologiche innovative e personalizzate."
+      description:
+        "Studio approfondito delle esigenze e definizione di soluzioni tecnologiche innovative e personalizzate.",
     },
     {
       icon: Database,
       title: "Sviluppo Iterativo",
-      description: "Implementazione agile con cicli di sviluppo rapidi e feedback continuo per massimizzare l'efficacia."
+      description:
+        "Implementazione agile con cicli di sviluppo rapidi e feedback continuo per massimizzare l'efficacia.",
     },
     {
       icon: Cpu,
       title: "Integrazione e Test",
-      description: "Verifica rigorosa delle funzionalità e ottimizzazione delle performance in ambiente reale."
+      description: "Verifica rigorosa delle funzionalità e ottimizzazione delle performance in ambiente reale.",
     },
     {
       icon: GitBranch,
       title: "Deployment e Monitoraggio",
-      description: "Rilascio controllato e monitoraggio continuo per garantire stabilità e performance ottimali."
-    }
+      description: "Rilascio controllato e monitoraggio continuo per garantire stabilità e performance ottimali.",
+    },
   ];
 
   return (
@@ -73,20 +74,18 @@ const Methodology = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl mx-auto"
-        >
+          className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <motion.div
               initial={{ scale: 0 }}
               animate={inView ? { scale: 1 } : {}}
               transition={{ duration: 0.5, type: "spring" }}
-              className="inline-block p-3 bg-primary/10 dark:bg-primary-light/10 rounded-full mb-4"
-            >
+              className="inline-block p-3 bg-primary/10 dark:bg-primary-light/10 rounded-full mb-4">
               <GitBranch className="w-8 h-8 text-primary dark:text-primary-light" />
             </motion.div>
-            <h2 className="text-4xl font-bold mb-4 dark:text-white">La Nostra Metodologia</h2>
+            <h2 className="text-4xl font-bold mb-4 dark:text-white uppercase brand">La Nostra Metodologia</h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-Accompagniamo le aziende, dall’analisi dei bisogni al miglioramento continuo.
+              Accompagniamo le aziende, dall’analisi dei bisogni al miglioramento continuo.
             </p>
           </div>
 

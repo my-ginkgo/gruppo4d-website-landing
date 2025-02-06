@@ -1,5 +1,4 @@
-import React from 'react';
-import Monogram from './Monogram';
+import Monogram from "./Monogram";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +12,8 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <p className="text-gray-600 dark:text-gray-300">
-              © {currentYear} Gruppo4D. Tutti i diritti riservati.
+              © {currentYear} <span className="uppercase brand font-bold text-lg">Gruppo4D</span> - Tutti i diritti
+              riservati.
             </p>
           </div>
         </div>

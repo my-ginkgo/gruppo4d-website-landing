@@ -53,7 +53,7 @@ const About = () => {
               className="inline-block p-3 bg-primary/10 dark:bg-primary-light/10 rounded-full mb-4">
               <Building2 className="w-8 h-8 text-primary dark:text-primary-light" />
             </motion.div>
-            <h2 className="text-4xl font-bold mb-4 dark:text-white">Chi Siamo</h2>
+            <h2 className="text-4xl font-bold mb-4 dark:text-white uppercase brand">Chi Siamo</h2>
           </div>
 
           <motion.div

@@ -16,3 +16,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* 4D Customizations */
+@font-face {
+  font-family: "gruppo4dregular";
+  src: url("../webfonts/gruppo4d-webfont.woff2") format("woff2"),
+    url("../webfonts/gruppo4d-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brand {
+  font-family: "gruppo4dregular", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}

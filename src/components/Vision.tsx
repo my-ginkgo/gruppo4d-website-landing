@@ -35,7 +35,7 @@ const Vision = () => {
               className="inline-block p-3 bg-primary/10 dark:bg-primary-light/10 rounded-full mb-4">
               <Eye className="w-8 h-8 text-primary dark:text-primary-light" />
             </motion.div>
-            <h2 className="text-4xl font-bold mb-4 dark:text-white">La Nostra Vision</h2>
+            <h2 className="text-4xl font-bold mb-4 dark:text-white uppercase brand">La Nostra Visione</h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
               Immaginiamo un mondo in cui tecnologia e dati siano il motore del progresso aziendale.{" "}
             </p>

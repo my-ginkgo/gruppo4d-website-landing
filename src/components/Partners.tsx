@@ -86,7 +86,7 @@ const Partners = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}>
-          <h2 className="text-4xl font-bold mb-16 text-center dark:text-white">I Nostri Partner</h2>
+          <h2 className="text-4xl font-bold mb-16 text-center dark:text-white uppercase brand">I Nostri Partner</h2>
 
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-8">
             {partners.map((partner, index) => (
