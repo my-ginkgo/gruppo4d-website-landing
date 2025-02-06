@@ -60,9 +60,9 @@ const Partners = () => {
     {
       name: "Retex",
       logoLight:
-        "https://webmagazine.unitn.it/fileswebmagazine/styles/immagine_testata_evento_normal_new_270x270/public/images/nodi/retexlogo.jpg?itok=HSBUpStZ",
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1746662400&v=beta&t=sWNw1HGbCGtYOkaHiYeCAPlKLjJ-MeJqIjc4W2eEdFI",
       logoDark:
-        "https://webmagazine.unitn.it/fileswebmagazine/styles/immagine_testata_evento_normal_new_270x270/public/images/nodi/retexlogo.jpg?itok=HSBUpStZ",
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1746662400&v=beta&t=sWNw1HGbCGtYOkaHiYeCAPlKLjJ-MeJqIjc4W2eEdFI",
       url: "https://www.retexspa.com",
     },
     {
