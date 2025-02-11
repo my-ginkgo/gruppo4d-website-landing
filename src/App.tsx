@@ -1,32 +1,19 @@
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Loader from './components/Loader';
-import Methodology from './components/Methodology';
-import Mission from './components/Mission';
-import Navbar from './components/Navbar';
-import Partners from './components/Partners';
-import Philosophy from './components/Philosophy';
-import Services from './components/Services';
-import Vision from './components/Vision';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import CaseStudiesPage from "./pages/CaseStudiesPage";
+import CaseStudyDetailPage from "./pages/CaseStudyDetailPage";
+import HomePage from "./pages/HomePage";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
-    <div className="relative">
-      <Loader />
-      <Navbar />
-      <Hero />
-      <About />
-      <Mission />
-      <Vision />
-      <Philosophy />
-      <Methodology />
-      <Services />
-      <Partners />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/case-studies" element={<CaseStudiesPage />} />
+        <Route path="/case-studies/:id" element={<CaseStudyDetailPage />} />
+        <Route path="/profile/:id" element={<ProfilePage />} />
+      </Routes>
+    </Router>
   );
 }
 
