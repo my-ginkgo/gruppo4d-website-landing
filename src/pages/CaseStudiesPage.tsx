@@ -57,7 +57,7 @@ const CaseStudiesPage = () => {
                 className="group relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-500">
                 <Link to={`/case-studies/${study.id}`}>
                   {/* Image */}
-                  <div className="relative h-64">
+                  <div className="relative h-64 overflow-hidden">
                     <img
                       src={study.image}
                       alt={study.title}

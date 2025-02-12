@@ -21,17 +21,18 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
+  const navLinksHome = [
     { href: "#about", text: "Chi Siamo" },
-    { href: "#mission", text: "Mission" },
-    { href: "#vision", text: "Vision" },
+    // { href: "#mission", text: "Mission" },
+    // { href: "#vision", text: "Vision" },
     // { href: "#philosophy", text: "Filosofia" },
     // { href: "#methodology", text: "Metodologia" },
     { href: "#services", text: "Servizi" },
+    { href: "#case-studies", text: "Case Study" },
     { href: "#partners", text: "Partner" },
     { href: "#contact", text: "Contatti" },
   ];
-
+  const navLinksPage = [{ href: "", text: "Home" }];
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
@@ -48,16 +49,27 @@ const Navbar = () => {
             <Logo className="h-full w-auto" />
           </a>
           <div className="hidden md:flex items-center space-x-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className={`hover:text-primary dark:hover:text-primary-light transition-colors ${
-                  isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"
-                }`}>
-                {link.text}
-              </a>
-            ))}
+            {isHome
+              ? navLinksHome.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className={`hover:text-primary dark:hover:text-primary-light transition-colors ${
+                      isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"
+                    }`}>
+                    {link.text}
+                  </a>
+                ))
+              : navLinksPage.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className={`hover:text-primary dark:hover:text-primary-light transition-colors ${
+                      isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"
+                    }`}>
+                    {link.text}
+                  </a>
+                ))}
             <ThemeToggle />
           </div>
           <div className="md:hidden flex items-center space-x-4">

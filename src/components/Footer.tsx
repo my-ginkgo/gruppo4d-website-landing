@@ -1,3 +1,4 @@
+import packageJson from "../../package.json";
 import Monogram from "./Monogram";
 
 const Footer = () => {
@@ -15,6 +16,10 @@ const Footer = () => {
               © {currentYear} <span className="uppercase brand font-bold text-lg">Gruppo4D</span> - Tutti i diritti
               riservati.
             </p>
+            <p className="text-gray-800 dark:text-gray-300 text-sm pt-1">
+              Registro Imprese <b className="hover:text-primary">IT03000790356</b>
+            </p>
+            <p className="text-gray-800 dark:text-gray-300 pt-2 text-xs">v{packageJson.version}</p>
           </div>
         </div>
       </div>

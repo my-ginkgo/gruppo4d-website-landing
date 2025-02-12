@@ -14,7 +14,13 @@ const CaseStudies = () => {
   const featuredCaseStudies = caseStudies.slice(0, 3);
 
   return (
-    <section ref={ref} className="py-20 bg-gray-50 dark:bg-gray-900 relative overflow-hidden" id="case-studies">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, x: -50 }}
+      animate={inView ? { opacity: 1, x: 0 } : {}}
+      transition={{ duration: 0.8, delay: 0.2 }}
+      className="py-20 bg-gray-50 dark:bg-gray-900 relative overflow-hidden"
+      id="case-studies">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-primary-light/5 dark:from-primary/2 dark:to-primary-light/2" />
@@ -53,7 +59,7 @@ const CaseStudies = () => {
               className="group relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-500">
               <Link to={`/case-studies/${study.id}`}>
                 {/* Image */}
-                <div className="relative h-64">
+                <div className="relative h-64 overflow-hidden">
                   <img
                     src={study.image}
                     alt={study.title}
@@ -99,7 +105,7 @@ const CaseStudies = () => {
           </Link>
         </motion.div>
       </div>
-    </section>
+    </motion.div>
   );
 };
 
