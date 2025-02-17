@@ -10,7 +10,7 @@ const BookAppointment = () => {
 
   const openCalendly = () => {
     // Replace this URL with your actual Cal.com or Calendly URL
-    const bookingUrl = "https://cal.com/your-username";
+    const bookingUrl = "https://outlook.office365.com/book/AppuntamentoInformativo@gruppo4d.com/";
     window.open(bookingUrl, "_blank");
   };
 

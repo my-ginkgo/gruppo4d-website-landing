@@ -1,8 +1,7 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Mail, Linkedin, Calendar, MapPin, Phone } from 'lucide-react';
-import Logo from '../components/Logo';
-import ThemeToggle from '../components/ThemeToggle';
+import { Calendar, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Link, useParams } from "react-router-dom";
+import Logo from "../components/Logo";
+import ThemeToggle from "../components/ThemeToggle";
 
 const teamMembers = {
   marco: {
@@ -14,7 +13,7 @@ const teamMembers = {
     email: "marco.rossi@gruppo4d.com",
     phone: "+39 123 456 7890",
     linkedin: "https://linkedin.com/in/marco-rossi",
-    location: "Reggio Emilia, Italia"
+    location: "Reggio Emilia, Italia",
   },
   luca: {
     name: "Luca Bianchi",
@@ -25,7 +24,7 @@ const teamMembers = {
     email: "luca.bianchi@gruppo4d.com",
     phone: "+39 123 456 7891",
     linkedin: "https://linkedin.com/in/luca-bianchi",
-    location: "Reggio Emilia, Italia"
+    location: "Reggio Emilia, Italia",
   },
   andrea: {
     name: "Andrea Verdi",
@@ -36,8 +35,8 @@ const teamMembers = {
     email: "andrea.verdi@gruppo4d.com",
     phone: "+39 123 456 7892",
     linkedin: "https://linkedin.com/in/andrea-verdi",
-    location: "Reggio Emilia, Italia"
-  }
+    location: "Reggio Emilia, Italia",
+  },
 };
 
 const ProfilePage = () => {
@@ -54,8 +53,8 @@ const ProfilePage = () => {
 
   const openCalendly = () => {
     // Replace with actual booking URL
-    const bookingUrl = 'https://cal.com/your-username';
-    window.open(bookingUrl, '_blank');
+    const bookingUrl = "https://outlook.office365.com/book/AppuntamentoInformativo@gruppo4d.com/";
+    window.open(bookingUrl, "_blank");
   };
 
   return (
@@ -80,11 +79,7 @@ const ProfilePage = () => {
             <div className="md:w-1/3">
               <div className="relative h-full">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary-light/20 dark:from-primary/10 dark:to-primary-light/10" />
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover"
-                />
+                <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
               </div>
             </div>
 
@@ -103,8 +98,7 @@ const ProfilePage = () => {
                   {member.expertise.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300"
-                    >
+                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300">
                       {skill}
                     </span>
                   ))}
@@ -114,15 +108,13 @@ const ProfilePage = () => {
               <div className="space-y-4">
                 <a
                   href={`mailto:${member.email}`}
-                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors"
-                >
+                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors">
                   <Mail className="w-5 h-5" />
                   <span>{member.email}</span>
                 </a>
                 <a
                   href={`tel:${member.phone}`}
-                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors"
-                >
+                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors">
                   <Phone className="w-5 h-5" />
                   <span>{member.phone}</span>
                 </a>
@@ -134,8 +126,7 @@ const ProfilePage = () => {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors"
-                >
+                  className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors">
                   <Linkedin className="w-5 h-5" />
                   <span>LinkedIn Profile</span>
                 </a>
@@ -144,8 +135,7 @@ const ProfilePage = () => {
               <div className="mt-8">
                 <button
                   onClick={openCalendly}
-                  className="w-full md:w-auto px-6 py-3 bg-primary hover:bg-primary-light dark:bg-primary-light dark:hover:bg-primary text-white rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
-                >
+                  className="w-full md:w-auto px-6 py-3 bg-primary hover:bg-primary-light dark:bg-primary-light dark:hover:bg-primary text-white rounded-lg transition-colors duration-300 flex items-center justify-center gap-2">
                   <Calendar className="w-5 h-5" />
                   <span>Prenota un Appuntamento</span>
                 </button>
