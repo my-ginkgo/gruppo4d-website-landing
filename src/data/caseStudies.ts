@@ -1,57 +1,65 @@
-import { Briefcase, Cloud, Code, Database, LineChart, Users } from "lucide-react";
+import { Briefcase, Cloud, Database, GaugeCircle, LineChart, Users } from "lucide-react";
 
 export const caseStudies = [
   {
-    id: "ecommerce-b2b",
-    title: "Piattaforma E-commerce B2B",
+    id: "sports-data-analysis",
+    title: "Analisi Dati Sportivi",
     description:
-      "Sviluppo di una piattaforma e-commerce B2B per la gestione degli ordini e del catalogo prodotti, integrata con il gestionale aziendale.",
-    icon: Code,
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
-    tags: ["React", "Node.js", "PostgreSQL", "API REST"],
+      "Sviluppo di un portale per l'analisi automatica dei dati raccolti dai test metabolici su atleti, con l'obiettivo di velocizzare la creazione di report personalizzati e comparativi tra i giocatori.",
+    icon: GaugeCircle,
+    image: "https://o2up.it/wp-content/uploads/2024/08/testata-home-o2up-1.jpg",
+    tags: ["Angular", "Node.js", "Firebase", "MongoDB", "PostgreSQL"],
     challenge: `
-      <p>Il cliente necessitava di una piattaforma B2B moderna e scalabile per gestire il proprio catalogo prodotti e gli ordini dei rivenditori. Le sfide principali includevano:</p>
-      <ul>
-        <li>Integrazione con il sistema gestionale esistente</li>
-        <li>Gestione di un catalogo con oltre 10.000 prodotti</li>
-        <li>Implementazione di un sistema di prezzi personalizzati per cliente</li>
-        <li>Necessità di supportare dispositivi mobili e desktop</li>
-      </ul>
-    `,
+    <p>Il cliente, O2Up, aveva l'esigenza di sviluppare un sistema che permettesse:</p>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+      <li>Creazione automatizzata di report per singoli atleti basati su test metabolici effettuati sul campo.</li>
+      <li>Comparazione dei dati tra i giocatori di un team con report avanzati</li>
+      <li>Confronti con diverse popolazioni di atleti presenti a database</li>
+      <li>Gestione avanzata di permessi e autorizzazioni nel rispetto della privacy degli atleti e dei team</li>
+    </ul>
+  `,
     solution: `
-      <p>Abbiamo sviluppato una soluzione completa che include:</p>
-      <ul>
-        <li>Frontend React con interfaccia responsive e performante</li>
-        <li>Backend Node.js con API RESTful</li>
-        <li>Sistema di cache avanzato per ottimizzare le performance</li>
-        <li>Integrazione automatica con il gestionale tramite API</li>
-        <li>Dashboard amministrativa per la gestione del catalogo</li>
-      </ul>
-    `,
+    <p>Per rispondere a queste esigenze, abbiamo implementato una soluzione che include:</p>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+      <li>Un frontend Angular per un'interfaccia utente interattiva e intuitiva</li>
+      <li>Backend Node.js per gestire la logica di business e le API</li>
+      <li>Utilizzo di Firebase per l'autenticazione e lo storage dei file</li>
+      <li>Database MongoDB per archiviare dati raccolti dai dispositivi sul campo</li>
+      <li>PostgreSQL per gestire dati relazionali e avere la possibilità di effettuare query di confronto e analitica</li>
+    </ul>
+  `,
     results: `
-      <p>L'implementazione della piattaforma ha portato a risultati significativi:</p>
-      <ul>
-        <li>Riduzione del 60% dei tempi di gestione degli ordini</li>
-        <li>Aumento del 40% degli ordini online</li>
-        <li>Miglioramento della soddisfazione dei clienti</li>
-        <li>Riduzione degli errori di inserimento ordini del 90%</li>
-      </ul>
-    `,
+    <p>Grazie all'implementazione del portale, il cliente ha ottenuto:</p>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+      <li>Maggiore efficienza nella creazione di report, riducendo i tempi di elaborazione e consegna</li>
+      <li>Upgrade del servizio offerto al cliente da una soluzione statica (PDF) ad una piattaforma interattiva</li>
+      <li>Aumento della capacità di analisi comparativa tra atleti</li>
+      <li>Miglioramento significativo nella gestione delle informazioni e nella velocità di accesso ai dati</li>
+    </ul>
+  `,
     technologies: [
       {
-        name: "React",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        name: "Angular",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
       },
       {
         name: "Node.js",
         logo: "https://nodejs.org/static/images/logo.svg",
       },
       {
+        name: "Firebase",
+        logo: "https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png",
+      },
+      {
+        name: "MongoDB",
+        logo: "https://www.mongodb.com/assets/images/global/favicon.ico",
+      },
+      {
         name: "PostgreSQL",
         logo: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
     ],
-    demoUrl: "https://demo-ecommerce.gruppo4d.com",
+    demoUrl: "https://o2up.gruppo4d.com",
   },
   {
     id: "bi-dashboard",
@@ -63,7 +71,7 @@ export const caseStudies = [
     tags: ["Power BI", "SQL", "Data Analysis", "Azure"],
     challenge: `
       <p>L'azienda aveva bisogno di una soluzione per monitorare le performance in tempo reale e prendere decisioni basate sui dati. Le sfide includevano:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Dati provenienti da multiple fonti non integrate</li>
         <li>Necessità di report automatizzati e personalizzabili</li>
         <li>Richiesta di accesso mobile ai dati</li>
@@ -72,7 +80,7 @@ export const caseStudies = [
     `,
     solution: `
       <p>Abbiamo implementato una soluzione completa di Business Intelligence:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Dashboard interattiva con KPI in tempo reale</li>
         <li>Sistema di ETL automatizzato</li>
         <li>Report personalizzati per diversi reparti</li>
@@ -81,7 +89,7 @@ export const caseStudies = [
     `,
     results: `
       <p>L'implementazione ha portato a significativi miglioramenti:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Riduzione del 75% del tempo per la generazione di report</li>
         <li>Aumento del 30% nell'efficienza decisionale</li>
         <li>ROI positivo in soli 6 mesi</li>
@@ -114,7 +122,7 @@ export const caseStudies = [
     tags: ["IoT", "Cloud", "Mobile App", "Automation"],
     challenge: `
       <p>Il cliente necessitava di modernizzare la gestione del magazzino. Le sfide principali erano:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Tracciamento in tempo reale delle merci</li>
         <li>Ottimizzazione delle scorte</li>
         <li>Riduzione degli errori di picking</li>
@@ -123,7 +131,7 @@ export const caseStudies = [
     `,
     solution: `
       <p>Abbiamo sviluppato un sistema completo che include:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Sensori IoT per il tracciamento</li>
         <li>App mobile per operatori</li>
         <li>Sistema di ottimizzazione AI-driven</li>
@@ -132,7 +140,7 @@ export const caseStudies = [
     `,
     results: `
       <p>L'implementazione ha portato a risultati eccezionali:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Riduzione del 40% dei tempi di picking</li>
         <li>Diminuzione del 30% delle scorte</li>
         <li>Eliminazione quasi totale degli errori</li>
@@ -165,7 +173,7 @@ export const caseStudies = [
     tags: ["Salesforce", "API", "Automation", "Integration"],
     challenge: `
       <p>L'azienda necessitava di unificare i propri processi di vendita. Le sfide includevano:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Integrazione di sistemi legacy</li>
         <li>Automazione del processo di vendita</li>
         <li>Gestione complessa dei lead</li>
@@ -174,7 +182,7 @@ export const caseStudies = [
     `,
     solution: `
       <p>Abbiamo implementato una soluzione CRM completa:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Customizzazione Salesforce</li>
         <li>Integrazione con sistemi esistenti</li>
         <li>Automazione dei workflow</li>
@@ -183,7 +191,7 @@ export const caseStudies = [
     `,
     results: `
       <p>I risultati hanno superato le aspettative:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Aumento del 50% nella conversione dei lead</li>
         <li>Riduzione del 60% nei tempi di gestione</li>
         <li>Miglioramento del 40% nel forecast</li>
@@ -216,7 +224,7 @@ export const caseStudies = [
     tags: ["AWS", "DevOps", "Microservices", "Docker"],
     challenge: `
       <p>Il cliente necessitava di modernizzare la propria infrastruttura IT. Le sfide erano:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Migrazione senza interruzioni di servizio</li>
         <li>Ottimizzazione dei costi</li>
         <li>Scalabilità automatica</li>
@@ -225,7 +233,7 @@ export const caseStudies = [
     `,
     solution: `
       <p>Abbiamo implementato una strategia di migrazione completa:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Architettura microservizi</li>
         <li>Container orchestration</li>
         <li>CI/CD automation</li>
@@ -234,7 +242,7 @@ export const caseStudies = [
     `,
     results: `
       <p>La migrazione ha portato benefici significativi:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Riduzione del 40% dei costi operativi</li>
         <li>Aumento del 99.99% dell'uptime</li>
         <li>Scalabilità automatica efficiente</li>
@@ -266,7 +274,7 @@ export const caseStudies = [
     tags: ["Strategy", "Innovation", "Process", "Change"],
     challenge: `
       <p>L'azienda necessitava di una trasformazione digitale completa. Le sfide erano:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Resistenza al cambiamento</li>
         <li>Processi obsoleti</li>
         <li>Formazione del personale</li>
@@ -275,7 +283,7 @@ export const caseStudies = [
     `,
     solution: `
       <p>Abbiamo sviluppato un piano di trasformazione completo:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Roadmap strategica</li>
         <li>Reingegnerizzazione dei processi</li>
         <li>Programma di formazione</li>
@@ -284,7 +292,7 @@ export const caseStudies = [
     `,
     results: `
       <p>La trasformazione ha portato risultati tangibili:</p>
-      <ul>
+      <ul style="list-style-type: disc; padding-left: 20px;">
         <li>Aumento del 35% della produttività</li>
         <li>Riduzione del 45% dei costi operativi</li>
         <li>Miglioramento della customer experience</li>

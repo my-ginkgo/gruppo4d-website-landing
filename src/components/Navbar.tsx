@@ -32,7 +32,7 @@ const Navbar = () => {
     { href: "#partners", text: "Partner" },
     { href: "#contact", text: "Contatti" },
   ];
-  const navLinksPage = [{ href: "", text: "Home" }];
+  const navLinksPage = [{ href: "/", text: "Home" }];
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
