@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <a
-            href="#"
+            href="/"
             title="Home"
             className={`h-8 transition-all duration-300 ${
               !isScrolled && isHome ? "opacity-0 scale-95 pointer-events-none" : "opacity-100 scale-100"
@@ -74,22 +74,32 @@ const Navbar = () => {
           </div>
           <div className="md:hidden flex items-center space-x-4">
             <ThemeToggle />
-            <button onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? (
-                <X className={`w-6 h-6 ${isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"}`} />
-              ) : (
-                <Menu
-                  className={`w-6 h-6 ${isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"}`}
-                />
-              )}
-            </button>
+            {(isHome && (
+              <button onClick={() => setIsOpen(!isOpen)}>
+                {isOpen ? (
+                  <X
+                    className={`w-6 h-6 ${isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"}`}
+                  />
+                ) : (
+                  <Menu
+                    className={`w-6 h-6 ${isScrolled && isHome ? "text-gray-700 dark:text-gray-300" : "text-white"}`}
+                  />
+                )}
+              </button>
+            )) || (
+              <a
+                href="/"
+                className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary-light transition-colors">
+                Home
+              </a>
+            )}
           </div>
         </div>
 
         {isOpen && (
           <div className="md:hidden bg-white dark:bg-gray-900">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {navLinks.map((link) => (
+              {navLinksHome.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}

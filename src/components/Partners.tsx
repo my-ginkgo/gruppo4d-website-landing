@@ -19,17 +19,32 @@ const Partners = () => {
       url: "https://www.addiction.it",
     },
     {
+      name: "Re2n",
+      logoLight: "https://www.re2n.com/landing/re2n_logo/re2n_logo.png",
+      logoDark: "https://www.re2n.com/landing/re2n_logo/re2n_logo.png",
+      url: "https://www.re2n.com",
+    },
+    {
+      name: "Reggiana Calcio",
+      logoLight: "https://reggianacalcio.it/wp-content/uploads/2024/08/Logo-600x600-1.png",
+      logoDark: "https://reggianacalcio.it/wp-content/uploads/2024/08/Logo-600x600-1.png",
+      url: "https://reggianacalcio.it",
+    },
+    {
+      name: "Kaiti Expansion",
+      logoLight:
+        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
+      logoDark:
+        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
+      url: "https://www.kaitiexpansion.com",
+    },
+    {
       name: "O2Up",
       logoLight: "https://o2up.it/wp-content/uploads/2024/08/logo-o2up.png",
       logoDark: "https://o2up.it/wp-content/uploads/2024/08/logo-o2up.png",
       url: "https://o2up.it",
     },
-    {
-      name: "DataSmart Italia",
-      logoLight: "https://www.datasmartitalia.it/wp-content/uploads/2019/10/logo-esteso-color.svg",
-      logoDark: "https://www.datasmartitalia.it/wp-content/uploads/2019/09/light-grif.svg",
-      url: "https://www.datasmartitalia.it",
-    },
+
     {
       name: "Gammastudio",
       logoLight: "https://www.gammastudiosrl.com/themes/default/assets/img/main-logo.svg",
@@ -50,12 +65,10 @@ const Partners = () => {
       url: "https://www.biosmanagement.com",
     },
     {
-      name: "Kaiti Expansion",
-      logoLight:
-        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
-      logoDark:
-        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
-      url: "https://www.kaitiexpansion.com",
+      name: "DataSmart Italia",
+      logoLight: "https://www.datasmartitalia.it/wp-content/uploads/2019/10/logo-esteso-color.svg",
+      logoDark: "https://www.datasmartitalia.it/wp-content/uploads/2019/09/light-grif.svg",
+      url: "https://www.datasmartitalia.it",
     },
     {
       name: "Retex",
@@ -64,18 +77,6 @@ const Partners = () => {
       logoDark:
         "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1746662400&v=beta&t=sWNw1HGbCGtYOkaHiYeCAPlKLjJ-MeJqIjc4W2eEdFI",
       url: "https://www.retexspa.com",
-    },
-    {
-      name: "Re2n",
-      logoLight: "https://www.re2n.com/landing/re2n_logo/re2n_logo.png",
-      logoDark: "https://www.re2n.com/landing/re2n_logo/re2n_logo.png",
-      url: "https://www.re2n.com",
-    },
-    {
-      name: "Reggiana Calcio",
-      logoLight: "https://reggianacalcio.it/wp-content/uploads/2024/08/Logo-600x600-1.png",
-      logoDark: "https://reggianacalcio.it/wp-content/uploads/2024/08/Logo-600x600-1.png",
-      url: "https://reggianacalcio.it",
     },
   ];
 
