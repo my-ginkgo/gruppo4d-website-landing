@@ -32,10 +32,8 @@ const Partners = () => {
     },
     {
       name: "Kaiti Expansion",
-      logoLight:
-        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
-      logoDark:
-        "https://media.licdn.com/dms/image/v2/C560BAQFfJxhXGGirLA/company-logo_200_200/company-logo_200_200/0/1630617726711/kaiti_expansion_srl_logo?e=1746662400&v=beta&t=wplYp-AWy3POeS34q0fzpRZ_ND7t0E145vJ_LoMtqBk",
+      logoLight: "kaiti.svg",
+      logoDark: "kaiti.svg",
       url: "https://www.kaitiexpansion.com",
     },
     {
