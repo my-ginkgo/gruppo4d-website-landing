@@ -22,7 +22,7 @@ export const caseStudies = [
     image: "https://o2up.it/wp-content/uploads/2024/08/testata-home-o2up-1.jpg",
     tags: ["Angular", "Node.js", "Firebase", "MongoDB", "PostgreSQL"],
     challenge: `
-    <p>Il cliente, O2Up, aveva l'esigenza di sviluppare un sistema che permettesse:</p>
+    <p>Il cliente, aveva l'esigenza di sviluppare un sistema che permettesse:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Creazione automatizzata di report per singoli atleti basati su test metabolici effettuati sul campo.</li>
       <li>Comparazione dei dati tra i giocatori di un team con report avanzati</li>
@@ -73,6 +73,7 @@ export const caseStudies = [
     ],
     demoUrl: "https://o2up.gruppo4d.com",
   },
+/*
   {
     id: "bi-dashboard",
     title: "Business Intelligence Dashboard",
@@ -123,28 +124,29 @@ export const caseStudies = [
       },
     ],
     demoUrl: "https://demo-bi.gruppo4d.com",
-  },
+  }, 
+*/
   {
     id: "dwh-kpi-analysis-igea",
     title: "DWH & Analisi dei KPI nel Settore Medicale",
     description:
-      "Implementazione di un sistema di Business Intelligence per integrare diverse fonti di dati eterogenei e monitorare le performance aziendali in tempo reale.",
+      "Implementazione di un sistema di Business Intelligence per integrare diverse fonti dati eterogenee e monitorare le performance aziendali in tempo reale.",
     icon: BarChart,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80",
     tags: ["Business Intelligence", "ETL", "Dashboard", "Machine Learning"],
     challenge: `
     <p>L'azienda necessitava di superare diverse sfide:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Integrazione di dati su sistemi eterogeni per una visione chiara delle performance aziendali.</li>
-      <li>Automatizzazione dell'analisi dei dati, precedentemente manuale e soggetta a errori.</li>
+      <li>Automazione dell'analisi dei dati, precedentemente manuale, con alto dispendio di tempo e soggetta a errori.</li>
       <li>Creazione di un sistema centralizzato per il monitoraggio dei KPI strategici.</li>
-      <li>Implementazione di profilazioni di accesso per una distribuzione sicura dei dati.</li>
+      <li>Implementazione di profili di accesso per una distribuzione sicura dei dati.</li>
     </ul>
   `,
     solution: `
     <p>Abbiamo sviluppato una soluzione completa di Business Intelligence che include:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
-      <li>Aggregazione e normalizzazione dei dati da diversi sistemi aziendali.</li>
+      <li>Aggregazione e normalizzazione dei dati dai diversi sistemi aziendali.</li>
       <li>Dashboard dinamiche e report interattivi, personalizzati per vari reparti.</li>
       <li>Utilizzo di strumenti di ETL per aggiornamenti automatici e affidabili dei dati.</li>
       <li>Analisi predittive e modelli di machine learning per prevedere i trend di mercato.</li>
@@ -162,18 +164,24 @@ export const caseStudies = [
   `,
     technologies: [
       {
-        name: "Business Intelligence Tools",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Business_Intelligence_Logo.svg",
+        name: "Power BI",
+        logo: "https://vectorseek.com/wp-content/uploads/2023/09/Power-BI-Microsoft-Logo-Vector.svg-.png",
       },
       {
-        name: "ETL Tools",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/ETL_Logo.svg",
+        name: "Azure",
+        logo: "https://azure.microsoft.com/svghandler/azure-logo?width=600&height=315",
+      },
+      {
+        name: "SQL Server",
+        logo: "https://user-images.githubusercontent.com/4249331/52232852-e2c4f780-28bd-11e9-835d-1e3cf3e43888.png",
       },
     ],
+/*
     demoUrl: "https://demo-dwh-kpi-igea.gruppo4d.com",
+*/
   },
   {
-    id: "powerbi-training-delcon",
+    id: "powerbi-training",
     title: "Formazione Power BI nell'Industria del Sangue",
     description:
       "Realizzazione di un percorso formativo su Power BI per rendere autonomi i reparti aziendali nel migliorare le proprie capacità di analisi e decision-making.",
@@ -182,7 +190,7 @@ export const caseStudies = [
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["Power BI", "Data Warehouse", "Formazione"],
     challenge: `
-    <p>DELCON affrontava diverse sfide:</p>
+    <p>L'azienda voleva superare alcuni limiti:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Dipendenza dal reparto IT per l'analisi dei dati, causando ritardi decisionali.</li>
       <li>Competenze limitate su Power BI tra il personale aziendale.</li>
@@ -208,21 +216,23 @@ export const caseStudies = [
     technologies: [
       {
         name: "Power BI",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Microsoft_Power_BI_Logo.svg",
+        logo: "https://vectorseek.com/wp-content/uploads/2023/09/Power-BI-Microsoft-Logo-Vector.svg-.png",
       },
     ],
-    demoUrl: "https://demo-powerbi-training-delcon.gruppo4d.com",
+/*
+    demoUrl: "https://demo-powerbi-training.gruppo4d.com",
+*/
   },
   {
-    id: "dwh-middleware-api-retex",
-    title: "Integrazione di Data Warehouse e Middleware API per RETEX",
+    id: "dwh-middleware-api",
+    title: "Integrazione di Data Warehouse e Middleware API",
     description:
       "Sviluppo di un'architettura integrata con middleware API per migliorare l'analisi dati, l'automazione e l'interoperabilità dei sistemi aziendali nel settore retail.",
     icon: RefreshCw,
     image: "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&q=80",
-    tags: ["Middleware", "API", "Data Warehouse", "SAP", "PAPRIKA", "SYSID"],
+    tags: ["Middleware", "API", "Data Warehouse", "SAP", "PAPRIKA", "SYSID", "Talend", "Dbeaver"],
     challenge: `
-    <p>RETEX affrontava diverse sfide critiche:</p>
+    <p>L'azienda affrontava diverse sfide critiche:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Integrazione complessa tra sistemi diversificati come SAP, PAPRIKA e SYSID.</li>
       <li>Mancanza di un Data Warehouse centralizzato per una visione unificata dei dati.</li>
@@ -251,26 +261,38 @@ export const caseStudies = [
     technologies: [
       {
         name: "Talend",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/Talend-logo.svg",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/9/97/Talend_logo.svg",
       },
       {
         name: "SAP",
         logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
       },
+      {
+        name: "PAPRIKA",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+      },
+      {
+        name: "SYSID",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+      },
+      {
+        name: "DBEAVER",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+      },
     ],
-    demoUrl: "https://demo-retex-dwh-middleware.gruppo4d.com",
+/*    demoUrl: "https://demo-dwh-middleware.gruppo4d.com", */
   },
   {
-    id: "fashion-luxury-management-danjhon",
-    title: "Gestione della Supply Chain nel Fashion & Luxury per DANJHON",
+    id: "fashion-luxury-management",
+    title: "First Allocation & Replenishment nel Fashion & Luxury",
     description:
-      "Implementazione di un sistema avanzato di gestione della supply chain per ottimizzare la distribuzione dei prodotti nel settore Fashion & Luxury.",
+      "Implementazione di un sistema avanzato di gestione dell'immesso in Store e dei riassortimenti nel Fashion & Luxury",
     icon: TrendingUp,
     image:
       "https://plus.unsplash.com/premium_photo-1681426687411-21986b0626a8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Supply Chain Management", "ERP", "WMS", "Replenishment"],
+    tags: ["Board", "ERP", "WMS", "Replenishment", "First Allocation", "Transfer Store"],
     challenge: `
-    <p>DANJHON affrontava diverse sfide operative:</p>
+    <p>L'azienda affrontava diverse sfide operative:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Gestione inefficiente della prima allocazione e dei riassortimenti nei negozi.</li>
       <li>Difficoltà nel prevedere la domanda e ottimizzare la disponibilità dei prodotti.</li>
@@ -283,7 +305,7 @@ export const caseStudies = [
       <li>Algoritmi di ottimizzazione per la gestione della prima allocazione e dei riassortimenti.</li>
       <li>Sviluppo di un motore di replenishment dinamico basato sulle vendite giornaliere.</li>
       <li>Integrazione con i sistemi ERP e WMS per migliorare la tracciabilità e l'efficienza logistica.</li>
-      <li>Dashboard di monitoraggio per il controllo dei KPI e della distribuzione dei prodotti.</li>
+      <li>Dashboard di monitoraggio per il controllo dei KPI ed il riassortimento dei prodotti.</li>
     </ul>
   `,
     results: `
@@ -297,19 +319,19 @@ export const caseStudies = [
   `,
     technologies: [
       {
-        name: "ERP Systems",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/ERP_logo.svg",
+        name: "Board",
+        logo: "https://user-images.githubusercontent.com/4249331/52232852-e2c4f780-28bd-11e9-835d-1e3cf3e43888.png",
       },
       {
-        name: "WMS Solutions",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Warehouse_Management_System_Logo.svg",
+        name: "SQL Server",
+        logo: "https://user-images.githubusercontent.com/4249331/52232852-e2c4f780-28bd-11e9-835d-1e3cf3e43888.png",
       },
     ],
-    demoUrl: "https://demo-fashion-luxury-management-danjhon.gruppo4d.com",
+/*    demoUrl: "https://demo-fashion-luxury-management.gruppo4d.com", */
   },
   {
-    id: "bigquery-to-sqlserver-acciai",
-    title: "Integrazione Dati da BigQuery a SQL Server per ACCIAI",
+    id: "bigquery-to-sqlserver",
+    title: "Integrazione Dati da BigQuery a SQL Server del settore produttivo",
     description:
       "Ottimizzazione del processo ETL per trasferire dati giornalieri di vasta portata da Google BigQuery a SQL Server, migliorando efficienza e affidabilità.",
     icon: Database,
@@ -317,7 +339,7 @@ export const caseStudies = [
       "https://plus.unsplash.com/premium_photo-1677612031010-5424f4ea90ff?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["ETL", "BigQuery", "SQL Server", "Data Integration"],
     challenge: `
-    <p>ACCIAI affrontava sfide significative nella gestione dei dati:</p>
+    <p>La multinazionale affrontava sfide significative nella gestione dei dati:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Estrazione, trasformazione e caricamento di oltre 200 milioni di righe giornaliere.</li>
       <li>Necessità di completare il processo entro una finestra temporale di 6 ore.</li>
@@ -350,20 +372,24 @@ export const caseStudies = [
         name: "Microsoft SQL Server",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
       },
+      {
+        name: "DataSmart",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
+      },
     ],
-    demoUrl: "https://demo-bigquery-sqlserver-acciai.gruppo4d.com",
+/*    demoUrl: "https://demo-bigquery-sqlserver.gruppo4d.com", */
   },
   {
-    id: "dwh-powerbi-sync-errea",
-    title: "Sincronizzazione DWH e PowerBI da NAV a BC per ERREA’",
+    id: "dwh-powerbi-sync",
+    title: "Sincronizzazione DWH e PowerBI da NAV a BC",
     description:
       "Migrazione e sincronizzazione dei dati tra Microsoft Dynamics NAV e Business Central per garantire la continuità delle operazioni di Business Intelligence.",
     icon: FolderSync,
     image:
       "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["DWH", "PowerBI", "Data Migration", "Business Central", "NAV"],
+    tags: ["DWH", "PowerBI", "Data Migration", "Business Central", "NAV", "DataSmart"],
     challenge: `
-    <p>ERREA' doveva affrontare diverse difficoltà nella migrazione dei dati:</p>
+    <p>L'azienda doveva affrontare diverse difficoltà nella migrazione dei dati:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Differenze nelle strutture dati tra Microsoft Dynamics NAV e Business Central.</li>
       <li>Rischio di perdita di informazioni o incongruenze nei dati storici durante la migrazione.</li>
@@ -397,20 +423,28 @@ export const caseStudies = [
         name: "Microsoft Dynamics 365 Business Central",
         logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Microsoft_Dynamics_365_logo.svg",
       },
+      {
+        name: "Microsoft SQL Server",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
+      },
+      {
+        name: "DataSmart",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
+      },
     ],
-    demoUrl: "https://demo-dwh-powerbi-sync-errea.gruppo4d.com",
+/*    demoUrl: "https://demo-dwh-powerbi-sync-errea.gruppo4d.com", */
   },
   {
-    id: "economic-analysis-gi-tessil",
-    title: "Analisi Economica Dettagliata per Prodotto per GI.TESSIL",
+    id: "economic-analysis",
+    title: "Analisi Economica Dettagliata per Prodotto nel settore tessile",
     description:
       "Implementazione di un sistema avanzato per l'analisi economica dettagliata per prodotto, trasformando i dati aggregati in conti economici precisi per ogni singolo articolo.",
     icon: DollarSign,
     image:
       "https://images.unsplash.com/photo-1488229297570-58520851e868?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Data Analysis", "Cost Accounting", "Power BI", "NAV"],
+    tags: ["Data Analysis", "Cost Accounting", "Power BI", "NAV", "DataSmart"],
     challenge: `
-    <p>GI.TESSIL si trovava di fronte a diverse sfide analitiche:</p>
+    <p>L'azienda si trovava di fronte a diverse sfide analitiche:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
       <li>Necessità di disaggregare i dati contabili e di produzione a livello di singolo prodotto.</li>
       <li>Difficoltà nel calcolare la redditività effettiva dei prodotti a causa della mancanza di attribuzione diretta dei costi di produzione, logistica e distribuzione.</li>
@@ -442,11 +476,19 @@ export const caseStudies = [
         logo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Microsoft_Dynamics_NAV_logo.svg",
       },
       {
+        name: "Microsoft SQL Server",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
+      },
+      {
         name: "Microsoft Power BI",
         logo: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Microsoft_Power_BI_Logo.svg",
       },
+      {
+        name: "DataSmart",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Microsoft_SQL_Server_logo.svg",
+      },
     ],
-    demoUrl: "https://demo-economic-analysis-gi-tessil.gruppo4d.com",
+/*    demoUrl: "https://demo-economic-analysis.gruppo4d.com", */
   },
   {
     id: "cloud-migration",
