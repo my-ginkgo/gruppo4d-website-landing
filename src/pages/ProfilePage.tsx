@@ -4,37 +4,50 @@ import Logo from "../components/Logo";
 import ThemeToggle from "../components/ThemeToggle";
 
 const teamMembers = {
-  marco: {
-    name: "Marco Rossi",
-    role: "CEO & Founder",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
-    bio: "Esperto di trasformazione digitale con oltre 15 anni di esperienza nel settore IT. Specializzato in strategia aziendale e innovazione tecnologica.",
-    expertise: ["Digital Strategy", "Business Development", "Enterprise Architecture"],
-    email: "marco.rossi@gruppo4d.com",
-    phone: "+39 123 456 7890",
-    linkedin: "https://linkedin.com/in/marco-rossi",
+  stefanodenti: {
+    name: "Stefano Denti",
+    role: "Co-Founder & CTO",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQE5t5naK_zRlw/profile-displayphoto-shrink_400_400/B4EZT_up2RHMAg-/0/1739457208177?e=1750896000&v=beta&t=WUmLCcE72pyiQbC1B-BxGeo6S2uwGSRkK2E5la5NrnQ",
+    bio: "Con una brillante carriera nel settore tecnologico, ha guidato il team di sviluppo in numerose trasformazioni di successo e ottimizzazioni di processi. La sua abilità tecnica e la grande passione sono un pilastro fondamentale per la crescita dell'azienda",
+    expertise: ["Digital Strategy", "Business Development", "Cloud Architecture", "DevOps", "Software Engineering"],
+    email: "stefano.denti@gruppo4d.com",
+    phone: "+39 3662803495",
+    linkedin: "https://www.linkedin.com/in/stefano-denti-8574bbbb/i",
     location: "Reggio Emilia, Italia",
   },
-  luca: {
-    name: "Luca Bianchi",
-    role: "CTO",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80",
-    bio: "Innovatore tecnologico con background in computer science. Appassionato di cloud computing e architetture software scalabili.",
-    expertise: ["Cloud Architecture", "DevOps", "Software Engineering"],
-    email: "luca.bianchi@gruppo4d.com",
-    phone: "+39 123 456 7891",
-    linkedin: "https://linkedin.com/in/luca-bianchi",
+  alessandrodosi: {
+    name: "Alessandro Dosi",
+    role: "Founder & CEO",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D03AQFV76cM9DH1pw/profile-displayphoto-shrink_800_800/B4DZT_yBcHHAAg-/0/1739458091288?e=1750896000&v=beta&t=v-y5PKOG7PBHfx9k3rvX7WOcwLp4uvava5jj3cTzD5Y",
+    bio: "Solution Architect con oltre 20 anni di esperienza nell’analisi dei dati e dei processi aziendali. Unisce competenze tecniche ad un approccio umano e collaborativo per costruire soluzioni innovative che generano risultati tangibili per i propri clienti.",
+    expertise: [
+      "Innovazione e Trasformazione Digitale",
+      "Sviluppo di Partnership e Networking Strategico",
+      "Data Analysis",
+    ],
+    email: "alessandro.dosi@gruppo4d.com",
+    phone: "+39 348 3032164",
+    linkedin: "https://www.linkedin.com/in/alessandro-dosi-39b3151/",
     location: "Reggio Emilia, Italia",
   },
-  andrea: {
-    name: "Andrea Verdi",
-    role: "Head of Business Development",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
-    bio: "Esperto di sviluppo business con focus su soluzioni enterprise. Specializzato in analisi di mercato e gestione delle relazioni con i clienti.",
-    expertise: ["Business Strategy", "Enterprise Sales", "Project Management"],
-    email: "andrea.verdi@gruppo4d.com",
-    phone: "+39 123 456 7892",
-    linkedin: "https://linkedin.com/in/andrea-verdi",
+  simonedenti: {
+    name: "Simone Denti",
+    role: "Co-founder & COO",
+    image:
+      "https://media.licdn.com/dms/image/v2/C4D03AQELPzd4M82kVw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1663692972201?e=1750896000&v=beta&t=TBMJqurgQc23nry6azDA-gczZH2qbVFsT4fMSGDvw_4",
+    bio: "Possiede una vasta esperienza nel settore dell'analisi dei dati e nella consulenza gestionale. La sua attenzione ai dettagli e la capacità di identificare le esigenze dei clienti ci consentono di offrire soluzioni personalizzate di alta qualità.",
+    expertise: [
+      "Project Management",
+      "Software Architecture",
+      "Data Analysis",
+      "Cloud Architecture",
+      "Data Warehouse Consulting",
+    ],
+    email: "simone.denti@gruppo4d.com",
+    phone: "+39 349 5356406",
+    linkedin: "https://www.linkedin.com/in/simone-denti/",
     location: "Reggio Emilia, Italia",
   },
 };
