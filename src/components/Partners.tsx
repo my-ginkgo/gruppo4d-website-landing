@@ -14,7 +14,7 @@ const Partners = () => {
     {
       name: "Addiction",
       logoLight:
-        "https://media.licdn.com/dms/image/v2/C4E0BAQF8r1NS0IfqZw/company-logo_200_200/company-logo_200_200/0/1631380690301/addiction_cml_logo?e=1746662400&v=beta&t=QNY8qAulnWJCCXY5wiJpJ5DqcvGdEmELXQ0shExRklE",
+        "https://media.licdn.com/dms/image/v2/C4E0BAQF8r1NS0IfqZw/company-logo_200_200/company-logo_200_200/0/1631380690301/addiction_cml_logo?e=1755734400&v=beta&t=qMTFEV6QoeO8GvQtYOEcAFyBANxm7kO-Hwa3T2CsakQ",
       logoDark: "https://www.addiction.it/wp-content/themes/addiction-theme/assets/images/logo-text.png",
       url: "https://www.addiction.it",
     },
@@ -51,15 +51,16 @@ const Partners = () => {
     },
     {
       name: "AD Consulting",
-      logoLight: "https://adcgroup.com/wp-content/uploads/2022/05/cropped-ADconsulting_logo_white-256.png",
-      logoDark: "https://adcgroup.com/wp-content/uploads/2022/05/cropped-ADconsulting_logo_white-256.png",
+      logoLight:
+        "https://media.licdn.com/dms/image/v2/D4D0BAQEUx0MavMz9oA/company-logo_200_200/company-logo_200_200/0/1701076277743/ad_consulting_group_logo?e=1755734400&v=beta&t=SCnvnrigWhkJSu6AhZ2gnZypgY_QP7Yd_9bIWUslK4U",
+      logoDark:
+        "https://media.licdn.com/dms/image/v2/D4D0BAQEUx0MavMz9oA/company-logo_200_200/company-logo_200_200/0/1701076277743/ad_consulting_group_logo?e=1755734400&v=beta&t=SCnvnrigWhkJSu6AhZ2gnZypgY_QP7Yd_9bIWUslK4U",
       url: "https://adcgroup.com",
     },
     {
       name: "BIOS",
       logoLight: "https://www.biosmanagement.com/templates/img/logo_biosmanagement.png",
-      logoDark:
-        "https://media.licdn.com/dms/image/v2/C4E0BAQEaFT1dTDvX1Q/company-logo_200_200/company-logo_200_200/0/1630652011253/biosmanagement_logo?e=1746662400&v=beta&t=KZUr961zRyTNkYuK0Wvh2ZGYybTVVoz3GDRIbwBpuUc",
+      logoDark: "https://www.biosmanagement.com/templates/img/logo_biosmanagement.png",
       url: "https://www.biosmanagement.com",
     },
     {
@@ -71,9 +72,9 @@ const Partners = () => {
     {
       name: "Retex",
       logoLight:
-        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1746662400&v=beta&t=sWNw1HGbCGtYOkaHiYeCAPlKLjJ-MeJqIjc4W2eEdFI",
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1755734400&v=beta&t=jvalgpIgJNZgdBF5jQzCG3gy45yOV-mC5krb5WSfst0",
       logoDark:
-        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1746662400&v=beta&t=sWNw1HGbCGtYOkaHiYeCAPlKLjJ-MeJqIjc4W2eEdFI",
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGWe4OJwYPP8A/company-logo_200_200/company-logo_200_200/0/1689251394004/retex_s_p_a__logo?e=1755734400&v=beta&t=jvalgpIgJNZgdBF5jQzCG3gy45yOV-mC5krb5WSfst0",
       url: "https://www.retexspa.com",
     },
   ];

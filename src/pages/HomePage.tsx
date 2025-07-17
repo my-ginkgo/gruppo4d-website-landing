@@ -11,6 +11,7 @@ import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
 import Philosophy from "../components/Philosophy";
 import Services from "../components/Services";
+import Team from "../components/Team";
 import Vision from "../components/Vision";
 
 const HomePage = () => {
@@ -28,6 +29,7 @@ const HomePage = () => {
       <Services />
       <CaseStudies />
       <Partners />
+      <Team />
       <Contact />
       <Footer />
     </div>

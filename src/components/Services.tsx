@@ -93,6 +93,45 @@ const Services = () => {
         },
       ],
     },
+    {
+      category: "Intelligenza Artificiale",
+      items: [
+        {
+          icon: Rocket,
+          title: "Sviluppo Agenti AI",
+          description:
+            "Progettiamo e sviluppiamo agenti AI personalizzati per automatizzare processi e migliorare l’efficienza operativa.",
+        },
+        {
+          icon: Server,
+          title: "Sviluppo MCP Server",
+          description:
+            "Realizziamo server MCP per integrare e orchestrare sistemi intelligenti e automazioni avanzate.",
+        },
+        {
+          icon: Cloud,
+          title: "Orchestrazione e Automazione",
+          description: "Implementiamo soluzioni di orchestrazione e automazione per workflow complessi e scalabili.",
+        },
+        {
+          icon: Database,
+          title: "Sistemi RAG",
+          description:
+            "Costruiamo sistemi Retrieval-Augmented Generation (RAG) per potenziare le capacità di ricerca e generazione delle AI.",
+        },
+        {
+          icon: LineChart,
+          title: "Estrazione dati e Web Scraping/Crawling",
+          description: "Sviluppiamo pipeline per l’estrazione dati, web scraping e crawling su larga scala.",
+        },
+        {
+          icon: Code,
+          title: "Sviluppo di Assistenti Virtuali",
+          description:
+            "Sviluppiamo assistenti virtuali personalizzati per migliorare l’interazione con i clienti e automatizzare processi.",
+        },
+      ],
+    },
   ];
 
   return (
