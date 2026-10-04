@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TeamMember, teamMembers } from "../data/team";
-import { useTheme } from "../hooks/useTheme";
 
 const Team: React.FC = () => {
-  const { isDark } = useTheme();
 
   // Convert teamMembers object to array for rendering
   const members: TeamMember[] = Object.values(teamMembers);

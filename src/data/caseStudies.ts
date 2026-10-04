@@ -7,7 +7,6 @@ import {
   DollarSign,
   FolderSync,
   GaugeCircle,
-  LineChart,
   RefreshCw,
   TrendingUp,
 } from "lucide-react";

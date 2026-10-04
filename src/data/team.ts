@@ -12,18 +12,6 @@ export interface TeamMember {
 }
 
 export const teamMembers: Record<string, TeamMember> = {
-  stefanodenti: {
-    id: "stefanodenti",
-    name: "Stefano Denti",
-    role: "Co-Founder & CTO",
-    image: "/stefano.jpeg",
-    bio: "Con una brillante carriera nel settore tecnologico, ha guidato il team di sviluppo in numerose trasformazioni di successo e ottimizzazioni di processi. La sua abilità tecnica e la grande passione sono un pilastro fondamentale per la crescita dell'azienda",
-    expertise: ["Digital Strategy", "Business Development", "Cloud Architecture", "DevOps", "Software Engineering"],
-    email: "stefano.denti@gruppo4d.com",
-    phone: "+39 3662803495",
-    linkedin: "https://www.linkedin.com/in/stefano-denti-8574bbbb/i",
-    location: "Reggio Emilia, Italia",
-  },
   alessandrodosi: {
     id: "alessandrodosi",
     name: "Alessandro Dosi",
@@ -38,6 +26,18 @@ export const teamMembers: Record<string, TeamMember> = {
     email: "alessandro.dosi@gruppo4d.com",
     phone: "+39 348 3032164",
     linkedin: "https://www.linkedin.com/in/alessandro-dosi-39b3151/",
+    location: "Reggio Emilia, Italia",
+  },
+  stefanodenti: {
+    id: "stefanodenti",
+    name: "Stefano Denti",
+    role: "Co-Founder & CTO",
+    image: "/stefano.jpeg",
+    bio: "Con una brillante carriera nel settore tecnologico, ha guidato il team di sviluppo in numerose trasformazioni di successo e ottimizzazioni di processi. La sua abilità tecnica e la grande passione sono un pilastro fondamentale per la crescita dell'azienda",
+    expertise: ["Digital Strategy", "Business Development", "Cloud Architecture", "DevOps", "Software Engineering"],
+    email: "stefano.denti@gruppo4d.com",
+    phone: "+39 3662803495",
+    linkedin: "https://www.linkedin.com/in/stefano-denti-8574bbbb/i",
     location: "Reggio Emilia, Italia",
   },
   simonedenti: {
