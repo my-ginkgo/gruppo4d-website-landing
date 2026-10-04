@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { Building2, Rocket, Target, Users } from "lucide-react";
 import { useInView } from "react-intersection-observer";
 
@@ -20,9 +20,6 @@ const About = () => {
     triggerOnce: true,
     threshold: 0.1,
   });
-
-  const { scrollYProgress } = useScroll();
-  const y = useTransform(scrollYProgress, [0, 1], [0, -50]);
 
   const stats = [
     { icon: Users, value: "40+", label: "Clienti Soddisfatti", delay: 0.2 },
